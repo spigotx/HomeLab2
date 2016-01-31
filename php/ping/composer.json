@@ -1,0 +1,6 @@
+{
+	"minimum-stability": "dev",
+	"require": {
+		"geerlingguy/ping": "1.*@dev"
+	}
+}

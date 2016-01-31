@@ -1,0 +1,103 @@
+{
+    "services": [
+        {
+            "name": "Home",
+            "icons": {
+                "nav": "fa fa-home fa-lg",
+				"landingpage": "fa fa-download fa-3x"
+            },
+            "frameurl": "homelab.php"
+        }, {
+            "name": "LibreNMS",
+            "icons": {
+                "nav": "fa fa-area-chart fa-lg",
+                "landingpage": "fa fa-area-chart fa-3x"
+            },
+            "dirurl": "http://PC_NAME"
+        }, {
+            "name": "Guacamole",
+            "icons": {
+                "nav": "glyphicon glyphicon-modal-window fa-lg",
+                "landingpage": "glyphicon glyphicon-modal-window fa-3x"
+            },
+            "dirurl": "http://PC_NAME:8080/guacamole/"
+        }, {
+            "name": "MikroTik",
+            "icons": {
+                "nav": "fa fa-signal fa-lg",
+                "landingpage": "fa fa-signal fa-3x"
+            },
+			"dropdownframe": "MikroTik",
+			"menuItemCount": 2,
+			"menuItemName1": "Router 01",
+			"menuItemContentName1": "MikroTikRouter01",			
+			"menuItemFrameurl1": "http://IP_ADDRESS",
+			"menuItemName2": "Switch 01",
+			"menuItemFrameurl2": "http://IP_ADDRESS",
+			"menuItemContentName2": "MikroTikSwitch01"
+        }, {
+            "name": "vCenter",
+            "icons": {
+                "nav": "fa fa-play-server fa-lg",
+                "landingpage": "fa fa-play-server fa-3x"
+            },
+            "dropdowndir": "vCenter",
+			"menuItemCount": 2,
+			"menuItemName1": "PC_NAME",
+			"menuItemDirurl1": "https://PC_NAME/vsphere-client/?csp",
+			"menuItemName2": "PC_NAME",
+			"menuItemDirurl2": "https://PC_NAME/vsphere-client/?csp"
+        }, {
+             "name": "Webmin",
+            "icons": {
+                "nav": "fa fa-object-ungroup fa-lg",
+                "landingpage": "fa fa-object-ungroup fa-3x"
+            },
+            "dropdowndir": "Webmin",
+			"menuItemCount": 7,
+			"menuItemName1": "PC_NAME",
+			"menuItemDirurl1": "https://PC_NAME:10000",
+			"menuItemName2": "PC_NAME",
+			"menuItemDirurl2": "https://PC_NAME:10000",
+			"menuItemName3": "PC_NAME",
+			"menuItemDirurl3": "https://PC_NAME:10000",
+			"menuItemName4": "PC_NAME",
+			"menuItemDirurl4": "https://PC_NAME:10000",
+			"menuItemName5": "PC_NAME",
+			"menuItemDirurl5": "https://PC_NAME:10000",
+			"menuItemName6": "PC_NAME",
+			"menuItemDirurl6": "https://PC_NAME:10000",
+			"menuItemName7": "PC_NAME",
+			"menuItemDirurl7": "https://PC_NAME:10000"
+
+        }, {
+            "name": "Dokuwiki",
+            "icons": {
+                "nav": "fa fa-wikipedia-w fa-lg",
+                "landingpage": "fa fa-wikipedia-w fa-3x"
+            },
+            "dirurl": "http://PC_NAME/dokuwiki"
+        }, {
+            "name": "Transmission",
+            "icons": {
+                "nav": "fa fa-download fa-lg",
+				"landingpage": "fa fa-download fa-3x"
+            },
+            "frameurl": "http://name:password@PC_NAME:9091"
+        }, {
+            "name": "SickRage",
+            "icons": {
+                "nav": "fa fa-television fa-lg",
+				"landingpage": "fa fa-television fa-3x"
+            },
+            "frameurl": "http://PC_NAME:8081/home"
+        }, {
+            "name": "Kodi",
+            "icons": {
+                "nav": "fa fa-play-circle fa-lg",
+				"landingpage": "fa fa-play-circle fa-3x"
+            },
+            "frameurl": "http://name:password@IP_ADDRESS:PORT"
+        }
+    ]
+}
